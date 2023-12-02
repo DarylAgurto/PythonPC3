@@ -1,13 +1,14 @@
-# main.py
+
+
+import os
 
 from problema1 import resolver_problema1
 from problema2 import Circulo
 from problema3 import Catalogo, Producto
 from operaciones import dividir
-import os
 
 if __name__ == "__main__":
-    #1
+    # 1
     resolver_problema1()
 
     #2
@@ -42,7 +43,6 @@ if __name__ == "__main__":
     print(producto3)
 
     #7
-    #nuevo método y atributos.
     class Phone:
         def __init__(self, brand, model):
             self.brand = brand
@@ -62,6 +62,7 @@ if __name__ == "__main__":
             self.edad = edad
             self.ciudad = ciudad
 
+    # Instanciar datos de Persona desde el teclado
     nombre = input("Ingrese el nombre: ")
     edad = int(input("Ingrese la edad: "))
     ciudad = input("Ingrese la ciudad: ")

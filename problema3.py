@@ -1,4 +1,3 @@
-#parte del problema separado
 class Producto:
     def __init__(self, nombre, codigo):
         self.nombre = nombre
